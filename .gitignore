@@ -1,0 +1,19 @@
+# Archivos de configuración y conexión
+*.env
+appsettings.json
+connectionstrings.config
+*.udl
+
+# Backups de base de datos (pesados, no deben ir a Git)
+*.bak
+*.trn
+
+# Archivos temporales de SSMS
+*.ldf
+*.mdf
+*.log
+
+# Carpetas de configuración de Visual Studio (si alguna vez las usas aquí)
+.vs/
+bin/
+obj/
