@@ -59,6 +59,7 @@ GRANT SELECT , INSERT ON Venta to rol_programador;
 --Agregando al usuario Alex  a ROL
 ALTER ROLE rol_programador ADD MEMBER Alexander;
 
-Select * from ProductoV2;
-
+--Probando hacer selec a una tabla que no ha sigo incluida en la lista
+ Select * from ProductoV2;
+ --verificando que usuario esta conectado
 	SELECT SUSER_NAME(), USER_NAME();
